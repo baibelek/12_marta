@@ -10,7 +10,7 @@
         :root {
             --primary-color: #ff8fab;
             --secondary-color: #fb6f92;
-            --bg-color: #ffffff;
+            --bg-color: white;
             --text-color: #590d22;
         }
 
@@ -155,7 +155,7 @@
     <div class="content">
         <div class="envelope-section animate__animated animate__zoomIn">
             <div class="envelope" onclick="openLetter()">
-                <span id="envelope-text">Бичии чагаажыгаш 💌 (Нажми)</span>
+                <span id="envelope-text">Бичии чагаажыгаш 💌 (базывыт)</span>
                 <div id="letter">
                     Торутунген хунун биле авай байыр чедирип тур бис😘 <br><br>
                     Кан-дег кадыкшылды, Бугуле чуулдерге чугле ак орукту, чедиишкиннерни кузеп! Эн-не чараш чечектерни соннеп, Аас-кежиктиг узун назылаарынарны Кузеп алган кузелинер кезээ шагда будуп чоруурун кузээр-дир бис!💐😘 <br>
@@ -172,12 +172,12 @@
             {% for photo in photos %}
             <div class="photo-card">
                 <img src="{{ url_for('static', filename='images/' + photo) }}" alt="Фото">
-                <p>Эргим Авай... ✨</p>
+                <p>✨</p>
             </div>
             {% endfor %}
         </div>
 
-        <footer>Ынак бис эргим Ававыс ❤️</footer>
+        <footer>Ынак бис эргим Ававыс </footer>
     </div>
 
     <script>
