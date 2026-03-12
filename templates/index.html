@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>С 8 Марта, Любимая!</title>
+    <title>Торуттунген хунун биле Авай</title>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <style>
@@ -148,20 +148,34 @@
     </audio>
 
     <div class="hero">
-        <h1 class="animate__animated animate__fadeInDown">С 8 Марта, Моё Солнышко! 🌸</h1>
-        <div class="scroll-hint">Листай вниз, там сюрприз... ↓</div>
+        <h1 class="animate__animated animate__fadeInDown">Торуттунген хунун биле авай 🌸</h1>
+        <div class="scroll-hint">Адаанда бичии белек бар... ↓</div>
     </div>
 
     <div class="content">
         <div class="envelope-section animate__animated animate__zoomIn">
             <div class="envelope" onclick="openLetter()">
-                <span id="envelope-text">Тебе пришло весеннее письмо 💌 (Нажми)</span>
+                <span id="envelope-text">Бичии чагаажыгаш 💌 (Нажми)</span>
                 <div id="letter">
-                    Моя самая прекрасная и любимая! <br><br>
-                    Поздравляю тебя с этим чудесным праздником весны. <br>
-                    Ты — как первый весенний цветок, который дарит радость и тепло всему миру. <br>
-                    Пусть твоя улыбка сияет ярче солнца, а глаза всегда светятся от счастья. <br><br>
-                    <b>Ты моё главное вдохновение. Люблю тебя!</b>
+                    Торутунген хунун биле авай байыр чедирип тур бис <br><br>
+                        Бистин аравыска, ажы-толунун, уйнуктарынын аразынга ам-даа хун дег чырык <br><br>
+                            чайыналып чоруур шырайынар, сеткилинер, бистерни оортуп чорзун <br><br>
+                                Сеткилинден ажыл-агый кылып чоруур <br><br>
+                                    Кужунерни магадаар бис эргим авай <br><br>
+                                        Ажы-тол дээш сагыш-човап чоруурунар <br><br>
+                                            Дувурелим часкарар дыр ынак авай <br><br>
+                                                Аравыска кезээ монге 100 хар чедир <br><br>
+                                                    Хулумзуруг бистерлерни оортуп чорзун <br><br>
+                                                        Аас-кежик кадыкшыл арыг чорзун ынак ававыс <br><br>
+                                                            Найырал ынакшыл быжг чорзун ынак авай <br><br>
+                                                                Олчей-кежик кезээ шагда,
+                                                                Каяа-даа бол картай чорзун!
+                                                                Алдын хун дег, ачылыг силер!
+                                                                Ортемчейде чуртталгада ошпес от силер!
+                                                                Амыдырал чуртталганы айтып чоруур,
+                                                                Онза чараш сеткилдиг силер!
+                                                                Эргеледип чассыдып кээр,бергелерде дуза кадар <br><br>
+                    <b>Эргим Ынак Ававыс</b>
                 </div>
             </div>
         </div>
@@ -172,12 +186,12 @@
             {% for photo in photos %}
             <div class="photo-card">
                 <img src="{{ url_for('static', filename='images/' + photo) }}" alt="Фото">
-                <p>Ты прекрасна... ✨</p>
+                <p>Ынак ававыс... ✨</p>
             </div>
             {% endfor %}
         </div>
 
-        <footer>Всегда твой, навсегда рядом ❤️</footer>
+        <footer>Бистин биле кезээде кады сен ❤️</footer>
     </div>
 
     <script>
